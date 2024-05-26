@@ -1,4 +1,4 @@
-
+import Sutton from "../button"
 
 function box({props}) {
   return (
@@ -7,6 +7,7 @@ function box({props}) {
       <p className="t text-lg font-normal">1st Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi cumque molestias minus nam alias error recusandae dolores porro dolore cum, tempora repudiandae, voluptate maiores eius! Adipisci non tenetur minima hic possimus illo aliquam, architecto quis quo dicta asperiores perspiciatis pariatur illum itaque libero facere, neque minus quia, labore et cumque.</p>
       
       <strong className="t text-center pt-4">This game was released in {props}</strong>
+      <Sutton/>
     </div>
   )
 }
