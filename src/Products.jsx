@@ -16,7 +16,7 @@ function Products({allProducts}) {
         <h2 className="t text-center font-bold text-xl underline">Product Details:</h2>
 
         <div className="product details pt-4 gap-3">
-          <p className="b text-base font-semibold text-start">Brand: <span className="t text-base font-normal">{item.brand}</span></p>
+          <p className="b text-base font-semibold text-start">Brand: <span className="q text-base font-normal">{item.brand}</span></p>
 
           <p className="b text-base font-semibold text-start">Dimensions: <span className="t text-base font-normal"><br></br> Height: {Math.floor(item.dimensions.height)} <br></br>
           Width: {Math.floor(item.dimensions.width)}</span></p>
