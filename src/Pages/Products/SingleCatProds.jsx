@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 const SingleCatProds = ({categoryProducts, categoryName}) => {
 
@@ -31,7 +31,7 @@ const SingleCatProds = ({categoryProducts, categoryName}) => {
                         </div>
                         <p className="b text-start text-lg"><span className="b font-bold">Overall Rating: </span>{product.rating}</p>
                         <div className="f m-auto pt-10 flex justify-center text-center">
-                            <button type="button" className=" bg-yellow-300 m-auto hover:bg-orange-500 px-3 py-2 rounded-lg text-black hover:text-white transition-all font-serif font-semibold text-[16px] self-center text-center">View Product</button>
+                         <Link to = {`/${product.category}/${product.id}`}>  <button type="button" className=" bg-yellow-300 m-auto hover:bg-orange-500 px-3 py-2 rounded-lg text-black hover:text-white transition-all font-serif font-semibold text-[16px] self-center text-center">View Product</button></Link> 
                         </div>
 
                         

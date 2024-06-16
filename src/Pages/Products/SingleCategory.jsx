@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import LoadingScreen from "../loading"
+import LoadingScreen from "../../loading"
 import SingleCatProds from "./SingleCatProds"
 
 const SingleCategory = () => {
